@@ -1,0 +1,13 @@
+syntax = "proto2";
+
+package proto;
+
+message Animal {
+  optional string name = 1;
+  optional int32 id = 2;
+  optional string type = 3;
+}
+
+message AnimalHerd {
+  repeated Animal animal = 1;
+}

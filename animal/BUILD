@@ -28,6 +28,7 @@ cc_library(
         "dog.h",
         ":animal_cc_proto",
     ],
+    linkstatic = False,
     visibility = ["//visibility:public"],
 )
 

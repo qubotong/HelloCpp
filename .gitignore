@@ -2,3 +2,6 @@
 
 build/
 bazel-*/
+
+
+.bazelrc-4

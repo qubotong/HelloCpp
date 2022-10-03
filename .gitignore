@@ -1,7 +1,12 @@
 .vscode/
 
 build/
-bazel-*/
+
+bazel-*
+bazel-bin
+bazel-out
+bazel-HelloCpp
+bazel-testlogs
 
 
 .bazelrc-4

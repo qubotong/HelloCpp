@@ -1,4 +1,4 @@
-load("//starlark:copy.bzl", "copy_file")
+load("//starlark:file.bzl", "copy_file", "create_file")
 
 copy_file(
     name = "new_file",
@@ -8,7 +8,9 @@ copy_file(
 cc_binary(
     name = "read_write",
     srcs = ["read_write.cpp"],
-    data = [
-        ":new_file",
-    ],
+)
+
+create_file(
+    name = "test_file",
+    txt = "hello this test!!!",
 )

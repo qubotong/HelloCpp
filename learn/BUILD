@@ -4,3 +4,8 @@ cc_binary(
     deps = [
     ],
 )
+
+cc_binary(
+    name = "learn_basic",
+    srcs = ["learn_basic.cpp"],
+)

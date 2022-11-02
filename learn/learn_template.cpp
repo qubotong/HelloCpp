@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
   Foo<int> test_case;
   test_case.print();
 
-  const char*str = "test string";
+  const char*str = "test string....";
   std::cout << str << std::endl;
 
   return 0;
